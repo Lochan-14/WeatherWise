@@ -1,23 +1,19 @@
-# WeatherWise
-Python tool to fetch real-time weather info using OpenWeather API
-# WeatherWise
+# WeatherWise – Real-Time Weather Info | Python
 
-**WeatherWise** is a Python tool that fetches real-time weather information for any city using the OpenWeather API.  
-It provides temperature, humidity, pressure, and weather description in a clean, easy-to-read format.
+**WeatherWise** is a Python project that provides **live, up-to-date weather information for any city worldwide** using the OpenWeather API.  
+It delivers key weather parameters including temperature, feels-like temperature, humidity, atmospheric pressure etc.
+The project ensures **reliable performance** by handling invalid city inputs and network errors gracefully, making it easy for users to quickly check weather conditions anywhere in the world.  
+WeatherWise is lightweight, fast, and ideal for anyone looking for a **simple, interactive, command-line-based weather information tool**. 🌤️🌧️❄️☀️
 
----
+### Features
+- Fetches real-time weather info including temperature 🌡️, humidity 💧, pressure 🌬️, and condition 🌦️  
+- Supports **any city globally**, with optional country code
+- Handles invalid city names and network issues gracefully  
+- Displays a **clean and easy-to-read output** with optional emojis for visual clarity  
 
-## Features
-- Displays current temperature, feels like temperature, min and max temperature  
-- Shows humidity, atmospheric pressure, and weather condition  
-- Handles invalid city names gracefully  
-- Works for cities worldwide with optional country code  
-
----
-
-## How to Run
+### How to Run
 1. Install Python 3.x  
-2. Install the `requests` library if not already installed:
+2. Install `requests` library:
 
-   ```bash
-   pip install requests
+```bash
+pip install requests
