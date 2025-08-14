@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "8ce3c94c9c9c6b3bfc2c8064ab950a68"  # Replace with your working OpenWeather key
+API_KEY = "8ce3c94c9c9c6b3bfc2c8064ab950a68"  
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 def get_weather(city_name):
@@ -34,3 +34,4 @@ if __name__ == "__main__":
     city_name = input("Enter city name: ").strip()
     get_weather(city_name)
     input("Press Enter to exit...")
+
